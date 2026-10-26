@@ -36,3 +36,15 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+
+# Alternative zu eigenem client: json config für Apps wie Cline oder Claude Desktop:
+# {
+#   "mcpServers": {
+#     "mein-wetter-server": {
+#       "command": "python",
+#       "args": ["C:/Pfad/zu/deinem/projekt/server.py"]
+#     }
+#   }
+# }
